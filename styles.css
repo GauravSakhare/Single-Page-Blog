@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 30px;
+    color: #c99128;
+    text-align: center;
+}
+
+body {
+    background-color: #14053b;
+}
+
+.title-div {
+    margin: 100px 50px;
+}
+
+.title {
+    font-size: 150px;
+}
+
+.paragraph {
+    margin: 20px 50px;
+    text-align: justify;
+}
+
+.footer {
+    margin: 50px;
+}
