@@ -10,7 +10,10 @@
 }
 
 body {
-    background-color: #14053b;
+    background: linear-gradient(
+        #091a37,
+        #000000
+    );
 }
 
 .title-div {
@@ -22,10 +25,23 @@ body {
 }
 
 .paragraph {
-    margin: 20px 50px;
+    margin: 50px 50px;
     text-align: justify;
 }
 
-.footer {
+.img-gallery {
+    display: flex;
+}
+
+.quote {
     margin: 50px;
+}
+
+.list {
+    text-align: justify;
+    margin: 50px;
+}
+
+.footer {
+    margin: 100px;
 }
