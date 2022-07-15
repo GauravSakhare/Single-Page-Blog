@@ -16,12 +16,28 @@ body {
     );
 }
 
+a {
+    text-decoration: solid;
+    color: #d68b00;
+}
+
+a:hover {
+    color: #000000;
+    padding: 2px;
+    background-color: #c99128;
+    border-radius: 5px;
+}
+
 .title-div {
     margin: 100px 50px;
 }
 
 .title {
     font-size: 150px;
+}
+
+.sec-color {
+    color: #865d11;
 }
 
 .paragraph {
@@ -40,8 +56,20 @@ body {
 .list {
     text-align: justify;
     margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.facts {
+    font-size: 40px;
 }
 
 .footer {
-    margin: 100px;
+    margin: 300px 100px 30px 100px;
+}
+
+.source {
+    font-size: 25px;
 }
